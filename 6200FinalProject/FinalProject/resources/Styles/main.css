@@ -1,0 +1,53 @@
+.main_page {
+     -fx-font-family: "Arial";
+     -fx-background-image:url("../Images/bg.jpeg");
+     -fx-background-size: 100% 100%;
+}
+
+
+.navbar {
+    -fx-alignment:center;
+    -fx-background-radius: 10;
+    -fx-background-color: #4e48a1;
+    -fx-alignment: center;
+}
+
+
+.main_page .navbar .avatar {
+
+  -fx-pref-width:1000;
+  -fx-background-color: #000000;
+
+}
+.navbar Button FontAwesomeIconView {
+    -fx-fill: #ffffff;
+}
+
+
+.page_title {
+    -fx-fill:#4e48a1;
+    -fx-font-size: 48;
+    -fx-font-weight: bold;
+}
+
+.page_section_title {
+    -fx-fill:#4e48a1;
+    -fx-font-size: 28;
+    -fx-font-weight: bold;
+}
+
+
+.bg-rect {
+     -fx-background-color: #ffffff;
+     -fx-background-radius: 10;
+}
+
+
+.add_button {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 1.3em;
+    -fx-background-color:#39BF84;
+    -fx-pref-width:120;
+    -fx-pref-height:28;
+    -fx-font-weight:bold;
+}

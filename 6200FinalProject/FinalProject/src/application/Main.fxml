@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="800.0" minWidth="1280.0" styleClass="main_page" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+    <children>
+        <ImageView fitHeight="800.0" fitWidth="1280.0" opacity="0.61" pickOnBounds="true" preserveRatio="true">
+            <viewport>
+                <Rectangle2D height="800.0" />
+            </viewport>
+        </ImageView>
+        <AnchorPane fx:id="Content" layoutX="223.0" layoutY="40.0" prefHeight="720.0" prefWidth="1015.0" />
+        <AnchorPane layoutX="38.0" layoutY="37.0" prefHeight="720.0" prefWidth="160.0" styleClass="navbar">
+            <children>
+                <ImageView fx:id="u_pic" fitHeight="100.0" fitWidth="100.0" layoutX="30.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" styleClass="avatar">
+               <image>
+                  <Image url="@../../../assets/icons/manage%20accounts.png" />
+               </image></ImageView>
+            <Button alignment="TOP_LEFT" layoutX="6.0" layoutY="216.0" mnemonicParsing="false" onAction="#ShiftToDashboard" prefHeight="35.0" prefWidth="142.0" styleClass="mbutton" text="DASHBOARD" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../assets/icons/Dashboard.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="6.0" layoutY="339.0" mnemonicParsing="false" onAction="#ShiftToTrack" prefHeight="35.0" prefWidth="142.0" styleClass="mbutton" text="TRACKING" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../assets/icons/badge.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="6.0" layoutY="299.0" mnemonicParsing="false" onAction="#ShiftToMemo" prefHeight="35.0" prefWidth="142.0" styleClass="mbutton" text="MEMO" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../assets/icons/sticky%20note.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="6.0" layoutY="259.0" mnemonicParsing="false" onAction="#ShiftToTODO" prefHeight="35.0" prefWidth="142.0" styleClass="mbutton" text="TO DO LIST" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../assets/icons/calendar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <StackPane layoutY="149.0" prefHeight="25.0" prefWidth="126.0">
+               <children>
+                  <Text fx:id="u_name" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+               </children>
+            </StackPane>
+            <ImageView fitHeight="25.0" fitWidth="23.0" layoutX="113.0" layoutY="150.0" onMouseClicked="#EditDF" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/icons/manage%20accounts.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+   <stylesheets>
+      <URL value="@../../resources/Styles/application.css" />
+      <URL value="@../../resources/Styles/main.css" />
+   </stylesheets>
+</AnchorPane>

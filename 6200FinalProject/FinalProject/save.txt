@@ -1,0 +1,36 @@
+Content: test
+Title: Test1
+Date: 2022-11-16 00:00:00.0
+Done: true
+Content: test
+Title: CCChangeTest
+Date: 2022-11-16 00:00:00.0
+Done: true
+Content: test
+Title: Test5
+Date: 2022-11-16 00:00:00.0
+Done: true
+Content: test
+Title: Test6
+Date: 2022-11-16 00:00:00.0
+Done: true
+Content: test
+Title: Try
+Date: 2022-11-20 00:00:00.0
+Done: true
+Content: Our group need to rehearse a few times before class, and we will need to turn on the camera and microphone to make presentation in the formal class.
+Title: 6200Pre
+Date: 2022-12-1 00:00:00.0
+Done: false
+Content: review the contents of Data Science and make good preparation for the final project.
+Title: Exam & pre of DS
+Date: 2022-12-12 00:00:00.0
+Done: false
+Content: My friend and I will take the flight to Las Vegas. It is a beautiful city with natural scenery and handsome guys. I hope we will spend a wonderful holiday there. 
+Title: Witer Travel
+Date: 2022-12-19 00:00:00.0
+Done: false
+Content: There will be celebration in Boston Copley square. I would like to go with my friends to celebrate the festival.
+Title: Xmas Celebration
+Date: 2022-12-25 00:00:00.0
+Done: false

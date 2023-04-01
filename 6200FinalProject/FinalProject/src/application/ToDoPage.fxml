@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1015.0" stylesheets="@../../resources/Styles/main.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ToDoPage">
+   <children>
+      <AnchorPane opacity="0.8" prefHeight="721.0" prefWidth="1015.0" style="-fx-background-color: White;" styleClass="base" />
+      <Text layoutX="30.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="page_title" text="To Do List" textOrigin="TOP" />
+      <AnchorPane layoutX="30.0" layoutY="125.0" prefHeight="539.0" prefWidth="570.0" style="-fx-background-color: White;" styleClass="base">
+         <children>
+            <ScrollPane fx:id="TODOList" layoutX="10.0" layoutY="10.0" prefHeight="520.0" prefWidth="550.0" style="-fx-background-color: transparent;">
+               <content>
+                  <VBox prefHeight="517.0" prefWidth="548.0" style="-fx-background-color: White;" />
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="626.0" layoutY="125.0" prefHeight="539.0" prefWidth="359.0" style="-fx-background-color: White;" styleClass="base">
+         <children>
+            <Text layoutX="29.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="page_section_title" text="Task Details" textOrigin="TOP" />
+            <ScrollPane fx:id="TContent" layoutX="29.0" layoutY="62.0" prefHeight="477.0" prefWidth="300.0" style="-fx-background-color: transparent;">
+               <content>
+                  <VBox maxHeight="475.0" maxWidth="298.0" minHeight="475.0" minWidth="298.0" prefHeight="475.0" prefWidth="298.0" style="-fx-background-color: White;" />
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+      <Button alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="865.0" layoutY="35.0" mnemonicParsing="false" onAction="#ToDoAdd" prefHeight="40.0" prefWidth="80.0" styleClass="add_button" text="Add Todo" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</AnchorPane>

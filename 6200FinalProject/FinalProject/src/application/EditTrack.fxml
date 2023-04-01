@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="278.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TrackPage">
+   <children>
+      <Text layoutX="117.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company:" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="90.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Applicaiton Date:" textAlignment="CENTER" wrappingWidth="132.60791015625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="285.0" layoutY="227.0" mnemonicParsing="false" onAction="#Add" prefHeight="31.0" prefWidth="95.0" text="OK" />
+      <Button layoutX="120.0" layoutY="227.0" mnemonicParsing="false" onAction="#close" prefHeight="31.0" prefWidth="95.0" text="Cancel" />
+      <Text layoutX="90.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status:" textAlignment="CENTER" wrappingWidth="132.60791015625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="90.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Url:" textAlignment="CENTER" wrappingWidth="132.60791015625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="90.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comment:" textAlignment="CENTER" wrappingWidth="132.60791015625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="track_company" layoutX="223.0" layoutY="14.0" />
+      <TextField fx:id="track_year" alignment="CENTER" layoutX="223.0" layoutY="49.0" prefHeight="23.0" prefWidth="46.0" promptText="yyyy" />
+      <TextField fx:id="track_month" alignment="CENTER" layoutX="281.0" layoutY="49.0" prefHeight="23.0" prefWidth="38.0" promptText="mm" />
+      <TextField fx:id="track_date" alignment="CENTER" layoutX="333.0" layoutY="49.0" prefHeight="23.0" prefWidth="30.0" promptText="dd" />
+      <TextField fx:id="track_status" layoutX="223.0" layoutY="84.0" />
+      <TextField fx:id="track_url" layoutX="223.0" layoutY="117.0" />
+      <TextField fx:id="track_comment" layoutX="223.0" layoutY="149.0" />
+   </children>
+</AnchorPane>

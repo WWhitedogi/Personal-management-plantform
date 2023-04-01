@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="48.0" prefWidth="528.0" styleClass="todopage_todo" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line endX="513.2928466796875" endY="48.0" opacity="0.4" startX="-1.52587890625E-5" startY="47.99998474121094" strokeLineCap="ROUND" strokeLineJoin="ROUND" style="-fx-fill: #372F9D;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+      <AnchorPane prefHeight="48.0" prefWidth="48.0" styleClass="todo_date">
+         <children>
+            <Text fx:id="day" layoutX="17.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11" textAlignment="CENTER" />
+            <Text fx:id="month" layoutX="12.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nov" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="68.0" prefHeight="48.0" prefWidth="460.0">
+         <children>
+            <Text fx:id="name" layoutX="10.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="todo_title" text="Finish 6200 Final Project UI Design" />
+            <ImageView fx:id="t_edit" fitHeight="15.0" fitWidth="20.0" layoutX="385.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/icons/edit.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="t_remove" fitHeight="15.0" fitWidth="20.0" layoutX="410.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/icons/delete.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="t_done" fitHeight="15.0" fitWidth="20.0" layoutX="435.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/icons/check%20box.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="remain" layoutX="10.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="todo_status" text="Overdue">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+   <stylesheets>
+      <URL value="@../../resources/Styles/todopage.css" />
+      <URL value="@../../resources/Styles/main.css" />
+   </stylesheets>
+</AnchorPane>

@@ -1,0 +1,27 @@
+.todo_pane {
+  -fx-background-color: #ffffff;
+   -fx-background-radius: 5;
+
+}
+
+.todo_date {
+    -fx-background-radius: 5;
+
+}
+.todo_date Text {
+    -fx-font-weight: bold;
+}
+
+.todo_title{
+     -fx-font-weight: bold;
+}
+
+
+.todo_status {
+
+}
+
+.todopage_todo{
+ -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+}

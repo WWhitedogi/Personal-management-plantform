@@ -1,0 +1,9 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.base {
+	-fx-background-radius: 10;
+}
+
+.mbutton {
+	-fx-background-color: #4e48a1;
+}

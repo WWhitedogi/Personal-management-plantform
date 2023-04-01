@@ -1,0 +1,9 @@
+.track_page {
+ -fx-font-family: "Arial";
+}
+
+StackPane Text {
+    -fx-text-weight: bold;
+    -fx-font-size: 14;
+     -fx-padding:5 10 5 10;
+}

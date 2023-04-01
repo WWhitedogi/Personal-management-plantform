@@ -1,0 +1,5 @@
+/*.pane {
+	-fx-border-color: black;
+	-fx-background-color: white;
+	-fx-effect: dropshadow(three-pass-box, #000000, 10, 0.1, 0, 10);
+}*/

@@ -1,0 +1,77 @@
+
+
+.nav_container {
+    -fx-background-color: #372F9D;
+    -fx-background-radius: 10;
+}
+
+.nav_container Text{
+    -fx-font-size:2em;
+    -fx-fill:#000000;
+}
+
+
+.memo_container {
+    -fx-background-radius:10;
+}
+
+
+
+.memo_container Text{
+
+}
+
+.test-icon {
+    -fx-fill: #372F9D;
+
+}
+
+
+
+
+
+.memos {
+    -fx-padding: 35 30 0 30;
+      -fx-pref-height: 450;
+
+}
+
+.memo {
+    -fx-background-color: #ffffff;
+    -fx-margin: 0 20 0 0;
+    -fx-background-radius:10;
+}
+
+.memo .memo-title {
+    -fx-font-weight: bold;
+     -fx-font-size: 16;
+}
+
+.tag {
+     -fx-background-color:#D9D6FF;
+     -fx-text-fill: #372F9D;
+     -fx-font-size: 10;
+     -fx-background-radius: 5;
+}
+
+.memo .weekday_tag {
+    -fx-fill: #372F9D;
+}
+
+.memo .date_tag {
+    -fx-fill: #372F9D;
+}
+
+.memo .memo_text{
+    -fx-pref-width:435;
+    -fx-pref-height:450;
+    -fx-font-size: 14;
+}
+
+.memo .memo_delete {
+    -fx-background-color:#DF2727;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight:bold;
+    -fx-font-size:12;
+}
+

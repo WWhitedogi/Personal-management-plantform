@@ -1,0 +1,32 @@
+.dashboard {
+  -fx-font-family: "Arial";
+
+}
+
+.dashboard .greeting {
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-fill: #4e48a1;
+
+}
+
+.section_title {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-fill: #4e48a1;
+  
+}
+
+.dashboard .countdown {
+    -fx-background-radius:5;
+}
+
+.countdown_title {
+     -fx-font-weight: bold;
+}
+
+.countdown_time{
+    -fx-font-weight: bold;
+    -fx-font-size: 48;
+
+}
